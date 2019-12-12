@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+}
+
+.col-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    column-gap: 2em;
+
+}
+
+.col {
+    height: 500px;
+    border: solid;
+}
